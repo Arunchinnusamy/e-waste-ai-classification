@@ -1,0 +1,68 @@
+# Node / frontend
+node_modules/
+dist/
+dist-ssr/
+.npm/
+.npmrc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.cache/
+.parcel-cache/
+
+# Python / backend
+.venv/
+venv/
+env/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.coverage
+.coverage.*
+htmlcov/
+
+# Trained model artifacts
+*.keras
+
+# Datasets
+data/
+datasets/
+**/data/
+**/datasets/
+
+# Environment and secrets
+.env
+.env.*
+*.env
+!.env.example
+*.local
+
+# Logs and temp files
+logs/
+*.log
+*.tmp
+tmp/
+temp/
+*.bak
+*.swp
+*.swo
+
+# Editor and OS files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
